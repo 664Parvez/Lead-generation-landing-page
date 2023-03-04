@@ -52,6 +52,7 @@ ul{
         padding-bottom: 0px;
         background-color: #F37835;
         border-radius: 20px;
+        box-shadow: 3px 3px 8px #757575;
         iframe{
             border-radius: 15px;
         }
@@ -60,11 +61,13 @@ ul{
         background-color: #CC4D33;
         padding: 10px;
         border-radius: 20px;
+        box-shadow: 3px 3px 8px #757575;
         h3{
             color: #ffffff;
         }
         .btn{
             background-color: aliceblue;
+            font-size: 18px;
         }
         label{
             color: #ffffff;
@@ -90,6 +93,7 @@ ul{
     }
     img{
         width: 100%;
+        filter: drop-shadow(3px 3px 5px #757575);
     }
 }
 @media only screen and (min-width: 280px) and (max-width: 428px){
@@ -147,7 +151,7 @@ ul{
     .profile_div{
         padding: 20px;
         border-radius: 20px;
-        box-shadow: 1px 1px 3px #818181;
+        box-shadow: 3px 3px 5px #757575;
         border-bottom: 4px dashed #CC4D33;
         border-top: 4px dashed #CC4D33;
         #profile_img{
@@ -217,6 +221,7 @@ ul{
     .card{
         padding: 15px;
         border-radius: 20px;
+        box-shadow: 3px 3px 8px #757575;
         img{
             height: 90px;
             width: 90px;
@@ -244,6 +249,7 @@ ul{
         padding: 15px;
         border-radius: 20px;
         height: 215px;
+        box-shadow: 3px 3px 8px #757575;
         img{
             height: 90px;
             width: 90px;
@@ -287,6 +293,7 @@ ul{
         padding: 15px;
         border-radius: 20px;
         height: 300px;
+        box-shadow: 3px 3px 8px #757575;
         img{
             height: 90px;
             width: 90px;
@@ -322,6 +329,19 @@ ul{
         .card{
             height: 370px;
         }
+    }
+}
+
+#review_section{
+    .trust_logo{
+        height: auto;
+        width: 200px;
+        box-shadow: none;
+    }
+    img{
+        width: 100%;
+        box-shadow: 3px 3px 8px #757575;
+        border-radius: 10px;
     }
 }
 
