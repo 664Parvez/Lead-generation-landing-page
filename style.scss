@@ -361,6 +361,9 @@ ul{
 }
 
 #review_section{
+    h2{
+        font-size: 45px;
+    }
     .trust_logo{
         height: auto;
         width: 200px;
@@ -370,6 +373,21 @@ ul{
         width: 100%;
         box-shadow: 3px 3px 8px #757575;
         border-radius: 10px;
+    }
+}
+@media only screen and (min-width: 280px) and (max-width: 428px){
+    #review_section{
+        h2{
+            font-size: 35px;
+        }
+    }
+}
+
+@media only screen and (min-width: 1280px) and (max-width: 1440px) {
+    #review_section{
+        .review-col{
+            width: 50%;
+        }
     }
 }
 
