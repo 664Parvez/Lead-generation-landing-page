@@ -34,6 +34,11 @@ ul {
     display: none;
   }
 }
+@media only screen and (min-width: 280px) and (max-width: 360px) {
+  #navbar .email p {
+    font-size: 18px;
+  }
+}
 @media only screen and (min-width: 430px) and (max-width: 550px) {
   #navbar {
     padding: 5px 10px;
@@ -77,6 +82,9 @@ ul {
 }
 
 @media only screen and (min-width: 280px) and (max-width: 428px) {
+  #first_section #video {
+    margin-top: 10px !important;
+  }
   #first_section h1 {
     font-size: 35px;
   }
