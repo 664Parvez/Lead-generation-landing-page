@@ -12,18 +12,24 @@ ul {
   padding-left: 0;
 }
 
+#top_bar {
+  background-color: #CC4D33;
+  padding-bottom: 0;
+}
+#top_bar marquee h4 {
+  padding-top: 10px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 0;
+}
+
 #navbar {
   padding: 5px 50px;
-  background-color: antiquewhite;
-  position: fixed;
-  top: 0;
   width: 100%;
-  z-index: 1000;
-  border-bottom: 2px solid #CC4D33;
-  border-top: 2px solid #CC4D33;
 }
 #navbar img {
-  height: 80px;
+  height: 130px;
+  padding-top: 20px;
 }
 
 @media only screen and (min-width: 280px) and (max-width: 428px) {
@@ -47,9 +53,6 @@ ul {
     display: none;
   }
 }
-#first_section {
-  margin-top: 100px;
-}
 #first_section h1 {
   font-size: 45px;
 }
@@ -68,6 +71,8 @@ ul {
   padding: 10px;
   border-radius: 20px;
   box-shadow: 3px 3px 8px #757575;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 #first_section #leadForm h3 {
   color: #ffffff;
@@ -87,6 +92,16 @@ ul {
   }
   #first_section h1 {
     font-size: 35px;
+  }
+  #first_section #leadForm {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 970px) {
+  #first_section #leadForm {
+    margin-left: 0px;
+    margin-right: 0px;
   }
 }
 #second_section {
@@ -202,7 +217,20 @@ ul {
     margin-top: 30px;
   }
 }
-@media only screen and (min-width: 1100px) and (max-width: 1280px) {
+@media only screen and (min-width: 970px) and (max-width: 1024px) {
+  #profile_section .company_contact {
+    padding-left: 0;
+    list-style: none;
+  }
+  #profile_section .company_contact li {
+    padding: 5px 0;
+    font-size: 20px;
+  }
+  #profile_section .company_contact li i {
+    color: #CC4D33;
+  }
+}
+@media only screen and (min-width: 1100px) and (max-width: 1440px) {
   #profile_section .company_contact {
     padding-left: 0;
     list-style: none;
@@ -228,9 +256,14 @@ ul {
   width: 90px;
   margin: auto;
 }
-#third_section .card .card-body h3 {
+#third_section .card .card-body h4 {
   font-weight: 600;
-  font-size: 30px;
+  font-size: 25px;
+}
+#third_section .card .card-body .btn {
+  background-color: #F37835;
+  color: #ffffff;
+  margin-top: 15px;
 }
 
 @media only screen and (min-width: 280px) and (max-width: 428px) {
@@ -328,7 +361,7 @@ ul {
     font-size: 35px;
   }
 }
-@media only screen and (min-width: 1280px) and (max-width: 1440px) {
+@media only screen and (min-width: 1024px) and (max-width: 1440px) {
   #review_section .review-col {
     width: 50%;
   }
